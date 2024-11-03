@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Brew</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/app.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Javascript -->
+    <script src="/script/script.js"></script>
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <h1>📰☕ The Daily Brew</h1>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#what">What's New</a></li>
+          <li><a href="#subs">Subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <div class="search">
+          <input type="text" placeholder="Search..." id="search-bar" />
+          <button type="submit" id="search-btn">Search</button>
+        </div>
+        <div class="content-list" id="menu">
+          <article>
+            <nav>
+              <ul>
+                <li><a href="#politic">Politic</a></li>
+                <li><a href="#sport">Sport</a></li>
+                <li><a href="#lifestyle">Lifestyle</a></li>
+                <li><a href="#environment">Environment</a></li>
+                <li><a href="#finance">Finance</a></li>
+                <li><a href="#tech">Tech</a></li>
+                <li><a href="#people">People</a></li>
+              </ul>
+            </nav>
+          </article>
+        </div>
+        <div class="title" id="home">
+          <article>
+            <h1 class="home">📰 News Freshly Brewed, Just for You ☕</h1>
+            <p>
+              Welcome to The Daily Brew, your go-to source for news and stories best enjoyed with a warm cup of coffee in hand. We believe that just like a perfect cup of coffee, good news should be savored and discussed. Our platform
+              delivers the latest news and in-depth articles across a variety of topics—politics, finance, lifestyle, and technology—designed to keep you informed as you sip on your favorite brew. Sit back, relax, and let us bring the news
+              to you, one story at a time.
+            </p>
+            <p>Stay informed with the freshest updates—subscribe today for daily or weekly deliveries of your favorite news, straight to your inbox or doorstep.</p>
+          </article>
+          <div class="subs">
+            <a href="#subs">Subscribe Now</a>
+          </div>
+        </div>
+        <h1 class="title">What's New</h1>
+        <div class="content-new" id="what">
+          <article class="first">
+            <div class="title-trends">
+              <h2>Samsung Launch Their "New Hero"</h2>
+              <span><a href="#">Tech</a> | Oct 11, 2024</span>
+            </div>
+            <figure>
+              <img class="lazy" data-src="/img/samsung-card.jpg" alt="Samsung Memory Card 1TB" />
+              <figcaption>Samsung Memory Card 1TB</figcaption>
+            </figure>
+            <p>
+              Samsung has just launched their new memory card with a larger capacity. This card can hold up to 1TB, which is equivalent to 1000GB. With this increased capacity, users can store more data, including photos, videos, and
+              important documents without worrying about running out of space. Additionally, this card is designed to offer fast transfer speeds, enabling users to access files more efficiently. With the latest technology, Samsung is
+              committed to meeting the ever-growing digital storage needs in today's modern era. <a href="#">read more</a>
+            </p>
+          </article>
+          <article>
+            <div class="title-trends">
+              <h2>A Common Practice in Amsterdam</h2>
+              <span><a href="#">Lifestyle</a> | Oct 6, 2024</span>
+            </div>
+
+            <figure>
+              <img class="lazy" data-src="/img/street.jpg" alt="People riding bikes down a street" />
+              <figcaption>People riding bikes</figcaption>
+            </figure>
+            <p>
+              Riding bikes has become a daily routine for people in Amsterdam. Regardless of how far or near their destination, biking remains the preferred choice. The emphasis on a healthier lifestyle and a cleaner environment are just a
+              few reasons why many opt for cycling. The city government has also supported this biking culture by constructing safe and convenient bike lanes. Furthermore, cycling is an effective way to reduce congestion and air pollution
+              in the city. With the rise of this biking culture, Amsterdam is increasingly recognized as one of the most bike-friendly cities in the world. <a href="#">read more</a>
+            </p>
+          </article>
+        </div>
+        <h1 class="title-late">Latest News</h1>
+        <div class="content-new" id="what">
+          <article class="first">
+            <div class="title-trends">
+              <h2>Apple Release "New Feature"</h2>
+              <span><a href="#">Tech</a> | Oct 3, 2024</span>
+            </div>
+            <p>Apple has just introduced their new operating system update, designed to enhance user experience and bring innovative features to their devices. <a href="#">read more</a></p>
+          </article>
+          <article>
+            <div class="title-trends">
+              <h2>Festivals in Tokyo</h2>
+              <span><a href="#">People</a> | Sep 30, 2024</span>
+            </div>
+            <p>Celebrating culture, Tokyo hosts one of the largest traditional festivals, drawing in visitors from all over the world to enjoy the vibrant events and performances. <a href="#">read more</a></p>
+          </article>
+        </div>
+        <div class="more-late">
+          <a href="">See more</a>
+        </div>
+        <div class="subs" id="subs">
+          <article>
+            <h2>Subscribe to Our Newspaper</h2>
+            <p>Stay updated with the latest news delivered right to your inbox or doorstep.</p>
+            <form>
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required />
+              </div>
+              <div class="form-group">
+                <label for="address">Address (for physical delivery)</label>
+                <textarea id="address" name="address" placeholder="Your full address (if you want physical delivery)" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="subscription-type">Subscription Type</label>
+                <select id="subscription-type" name="subscription-type" required>
+                  <option value="digital">Digital Only</option>
+                  <option value="physical">Physical (Home Delivery)</option>
+                  <option value="both">Both Digital and Physical</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="payment-method">Payment Method</label>
+                <select id="payment-method" name="payment-method" required>
+                  <option value="credit-card">Credit Card</option>
+                  <option value="bank-transfer">Bank Transfer</option>
+                  <option value="digital-wallet">Digital Wallet (e.g., GoPay, OVO)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="payment-details">Payment Details</label>
+                <input type="text" id="payment-details" name="payment-details" placeholder="Enter your payment details (e.g., card number)" required />
+              </div>
+              <div class="form-group">
+                <button type="submit">Subscribe</button>
+              </div>
+            </form>
+          </article>
+        </div>
+      </div>
+      <aside>
+        <div class="clock-container">
+          <div id="time" class="time-display"></div>
+          <hr />
+          <div class="date-display"><span id="day"></span> <span id="date"></span></div>
+          <hr />
+        </div>
+        <h1>Trends</h1>
+        <div class="title-trends">
+          <h2>Indonesia vs Bahrain: AFC Clash</h2>
+          <span><a href="#">Sport</a> | Oct 10, 2024</span>
+        </div>
+        <figure>
+          <img class="lazy" data-src="/img/timnas.jpeg" alt="Indonesia National Team" />
+          <figcaption>Indonesia on AFC Championship</figcaption>
+        </figure>
+        <p>In an intense AFC Championship match last night, Indonesia faced off against Bahrain in a thrilling contest. Despite a valiant effort from both teams, the match ended in a hard-fought draw... <a href="#">read more</a></p>
+        <div class="title-trends">
+          <h2>The Rise of Remote Work Culture</h2>
+          <span><a href="#">People</a> | Oct 9, 2024</span>
+        </div>
+        <figure>
+          <img class="lazy" data-src="/img/remote-work.jpg" alt="People working remotely from home" />
+          <figcaption>Remote workers in work spaces</figcaption>
+        </figure>
+        <p>
+          The global shift towards remote work has transformed how people engage with their jobs. As companies continue to adopt flexible work policies, millions are adjusting to a new work-life balance. From Zoom meetings to virtual
+          collaboration tools, people are learning to stay productive outside the traditional office. For some, remote work offers greater freedom, but it also presents challenges in staying connected and maintaining boundaries between work
+          and personal life... <a href="#">read more</a>
+        </p>
+        <div class="title-trends">
+          <h2>Free Palestine</h2>
+          <span><a href="#">Politic</a> | Oct 7, 2024</span>
+        </div>
+        <figure>
+          <img class="lazy" data-src="/img/rubble.jpg" alt="Al-Masry Tower rubble" />
+          <figcaption>Al-Masry Tower</figcaption>
+        </figure>
+        <p>The recent conflict in Palestine has sparked global outcry, with many calling for the end of violence. The collapse of Al-Masry Tower symbolizes the ongoing devastation in the region... <a href="#">read more</a></p>
+        <div class="title-trends">
+          <h2>Global Climate Strikes</h2>
+          <span><a href="#">Environment</a> | Oct 2, 2024</span>
+        </div>
+        <figure>
+          <img class="lazy" data-src="/img/climate-strike.jpg" alt="Climate Strikes" />
+          <figcaption>Protests across the world</figcaption>
+        </figure>
+        <p>
+          Millions of people around the world have participated in strikes demanding stronger actions from governments to address climate change. Activists are pushing for urgent reform in environmental policies... <a href="#">read more</a>
+        </p>
+        <div class="title-trends">
+          <h2>Artificial Intelligence Boom</h2>
+          <span><a href="#">Tech</a> | Sept 30, 2024</span>
+        </div>
+        <figure>
+          <img class="lazy" data-src="/img/ai-boom.jpg" alt="AI Boom" />
+          <figcaption>Advancements in AI Technology</figcaption>
+        </figure>
+        <p>The AI industry continues to see rapid advancements, with new breakthroughs in machine learning and neural networks. Experts predict that AI will play an increasingly pivotal role in all sectors... <a href="#">read more</a></p>
+        <div class="more-trends">
+          <a href="">See more</a>
+        </div>
+      </aside>
+      <div class="hidden">
+        <button>See Trends</button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>📰☕ The Daily Brew</h2>
+          <p>Your trusted source for the latest news, insightful articles, and timely updates—brewed fresh daily to keep you informed and engaged with every story.</p>
+        </div>
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Categories</a></li>
+            <li><a href="#what">What's New</a></li>
+            <li><a href="#subs">Subscribe</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p>Email: contact@thedailybrew.com</p>
+          <p>Phone: +62 812 345 678</p>
+          <p>Address: Jalan Media 14, Jakarta, Indonesia</p>
+        </div>
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 📰☕ The Daily Brew. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
